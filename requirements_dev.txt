@@ -5,3 +5,8 @@ black
 flake8
 mypy
 -e .
+
+ipywidgets
+notebook
+ensure
+py-youtube
