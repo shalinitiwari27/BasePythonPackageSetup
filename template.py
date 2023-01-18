@@ -22,7 +22,7 @@ list_of_files = [
     f"tests/__init__.py",
     f"tests/unit/__init__.py",
     f"tests/integration/__init__.py",
-    "init_setup.sh",   # helps in creating repository and basic environment setup i.e conda environment
+    #"init_setup.sh",   # helps in creating repository and basic environment setup i.e conda environment
     "requirements.txt",  
     "requirements_dev.txt",
     "setup.py",   # used for basic project setup
