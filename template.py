@@ -19,6 +19,15 @@ logging.info(f"Creating Project with name: {project_name}")
 list_of_files = [
     ".github/workflows/.gitkeep", # gitkeep feature. The . gitkeep feature is not a part of Git, but it is a trick we use to add empty directories to a Git repository. Generally, Git doesn't add empty directories and sometimes we may need to add them to a Git repository.
     f"src/{project_name}/__init__.py",
+    f"src/{project_name}/logger.py",
+    f"src/{project_name}/Exception.py",
+    f"src/{project_name}/Pipeline/__init__.py",
+    f"src/{project_name}/Entity/__init__.py",
+    f"src/{project_name}/Configurations/__init__.py",
+    f"src/{project_name}/Constants/__init__.py",
+    f"src/{project_name}/CloudStorage/__init__.py",
+    f"src/{project_name}/DataAccess/__init__.py",
+    f"src/{project_name}/ML/__init__.py",
     f"tests/__init__.py",
     f"tests/unit/__init__.py",
     f"tests/integration/__init__.py",
